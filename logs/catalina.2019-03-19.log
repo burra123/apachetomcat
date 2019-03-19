@@ -1,0 +1,474 @@
+Mar 19, 2019 6:44:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.93
+Mar 19, 2019 6:44:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Feb 16 2019 17:13:17 UTC
+Mar 19, 2019 6:44:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.93.0
+Mar 19, 2019 6:44:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Mar 19, 2019 6:44:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            3.10.0-957.5.1.el7.x86_64
+Mar 19, 2019 6:44:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Mar 19, 2019 6:44:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.201.b09-2.el7_6.x86_64/jre
+Mar 19, 2019 6:44:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_201-b09
+Mar 19, 2019 6:44:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Mar 19, 2019 6:44:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/gaggenapallysanthosh/apache-tomcat-7.0.93
+Mar 19, 2019 6:44:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/gaggenapallysanthosh/apache-tomcat-7.0.93
+Mar 19, 2019 6:44:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/gaggenapallysanthosh/apache-tomcat-7.0.93/conf/logging.properties
+Mar 19, 2019 6:44:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Mar 19, 2019 6:44:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Mar 19, 2019 6:44:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Mar 19, 2019 6:44:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/gaggenapallysanthosh/apache-tomcat-7.0.93
+Mar 19, 2019 6:44:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/gaggenapallysanthosh/apache-tomcat-7.0.93
+Mar 19, 2019 6:44:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/gaggenapallysanthosh/apache-tomcat-7.0.93/temp
+Mar 19, 2019 6:44:56 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Mar 19, 2019 6:44:56 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Mar 19, 2019 6:44:56 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 19, 2019 6:44:56 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1125 ms
+Mar 19, 2019 6:44:56 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 19, 2019 6:44:56 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.93
+Mar 19, 2019 6:44:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gaggenapallysanthosh/apache-tomcat-7.0.93/webapps/ROOT
+Mar 19, 2019 6:44:57 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gaggenapallysanthosh/apache-tomcat-7.0.93/webapps/ROOT has finished in 733 ms
+Mar 19, 2019 6:44:57 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gaggenapallysanthosh/apache-tomcat-7.0.93/webapps/docs
+Mar 19, 2019 6:44:57 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gaggenapallysanthosh/apache-tomcat-7.0.93/webapps/docs has finished in 111 ms
+Mar 19, 2019 6:44:57 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gaggenapallysanthosh/apache-tomcat-7.0.93/webapps/examples
+Mar 19, 2019 6:44:57 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gaggenapallysanthosh/apache-tomcat-7.0.93/webapps/examples has finished in 449 ms
+Mar 19, 2019 6:44:57 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gaggenapallysanthosh/apache-tomcat-7.0.93/webapps/host-manager
+Mar 19, 2019 6:44:58 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gaggenapallysanthosh/apache-tomcat-7.0.93/webapps/host-manager has finished in 136 ms
+Mar 19, 2019 6:44:58 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gaggenapallysanthosh/apache-tomcat-7.0.93/webapps/manager
+Mar 19, 2019 6:44:58 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gaggenapallysanthosh/apache-tomcat-7.0.93/webapps/manager has finished in 80 ms
+Mar 19, 2019 6:44:58 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Mar 19, 2019 6:44:58 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 19, 2019 6:44:58 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1853 ms
+Mar 19, 2019 6:46:06 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Mar 19, 2019 6:46:06 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Mar 19, 2019 6:46:06 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Mar 19, 2019 6:46:06 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Mar 19, 2019 6:46:06 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Mar 19, 2019 6:46:06 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Mar 19, 2019 6:46:06 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Mar 19, 2019 6:46:06 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Mar 19, 2019 6:46:09 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.93
+Mar 19, 2019 6:46:09 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Feb 16 2019 17:13:17 UTC
+Mar 19, 2019 6:46:09 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.93.0
+Mar 19, 2019 6:46:09 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Mar 19, 2019 6:46:09 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            3.10.0-957.5.1.el7.x86_64
+Mar 19, 2019 6:46:09 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Mar 19, 2019 6:46:09 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.201.b09-2.el7_6.x86_64/jre
+Mar 19, 2019 6:46:09 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_201-b09
+Mar 19, 2019 6:46:09 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Mar 19, 2019 6:46:09 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/gaggenapallysanthosh/apache-tomcat-7.0.93
+Mar 19, 2019 6:46:09 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/gaggenapallysanthosh/apache-tomcat-7.0.93
+Mar 19, 2019 6:46:09 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/gaggenapallysanthosh/apache-tomcat-7.0.93/conf/logging.properties
+Mar 19, 2019 6:46:09 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Mar 19, 2019 6:46:09 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Mar 19, 2019 6:46:09 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Mar 19, 2019 6:46:09 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/gaggenapallysanthosh/apache-tomcat-7.0.93
+Mar 19, 2019 6:46:09 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/gaggenapallysanthosh/apache-tomcat-7.0.93
+Mar 19, 2019 6:46:09 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/gaggenapallysanthosh/apache-tomcat-7.0.93/temp
+Mar 19, 2019 6:46:09 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Mar 19, 2019 6:46:10 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-7777"]
+Mar 19, 2019 6:46:10 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 19, 2019 6:46:10 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1077 ms
+Mar 19, 2019 6:46:10 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 19, 2019 6:46:10 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.93
+Mar 19, 2019 6:46:10 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gaggenapallysanthosh/apache-tomcat-7.0.93/webapps/ROOT
+Mar 19, 2019 6:46:10 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gaggenapallysanthosh/apache-tomcat-7.0.93/webapps/ROOT has finished in 704 ms
+Mar 19, 2019 6:46:10 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gaggenapallysanthosh/apache-tomcat-7.0.93/webapps/docs
+Mar 19, 2019 6:46:11 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gaggenapallysanthosh/apache-tomcat-7.0.93/webapps/docs has finished in 82 ms
+Mar 19, 2019 6:46:11 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gaggenapallysanthosh/apache-tomcat-7.0.93/webapps/examples
+Mar 19, 2019 6:46:11 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gaggenapallysanthosh/apache-tomcat-7.0.93/webapps/examples has finished in 450 ms
+Mar 19, 2019 6:46:11 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gaggenapallysanthosh/apache-tomcat-7.0.93/webapps/host-manager
+Mar 19, 2019 6:46:11 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gaggenapallysanthosh/apache-tomcat-7.0.93/webapps/host-manager has finished in 116 ms
+Mar 19, 2019 6:46:11 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gaggenapallysanthosh/apache-tomcat-7.0.93/webapps/manager
+Mar 19, 2019 6:46:11 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gaggenapallysanthosh/apache-tomcat-7.0.93/webapps/manager has finished in 89 ms
+Mar 19, 2019 6:46:11 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-7777"]
+Mar 19, 2019 6:46:11 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 19, 2019 6:46:11 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1642 ms
+Mar 19, 2019 6:48:45 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Mar 19, 2019 6:48:45 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-7777"]
+Mar 19, 2019 6:48:45 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Mar 19, 2019 6:48:45 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Mar 19, 2019 6:48:45 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-7777"]
+Mar 19, 2019 6:48:45 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Mar 19, 2019 6:48:45 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-7777"]
+Mar 19, 2019 6:48:45 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Mar 19, 2019 6:48:48 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.93
+Mar 19, 2019 6:48:48 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Feb 16 2019 17:13:17 UTC
+Mar 19, 2019 6:48:48 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.93.0
+Mar 19, 2019 6:48:48 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Mar 19, 2019 6:48:48 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            3.10.0-957.5.1.el7.x86_64
+Mar 19, 2019 6:48:48 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Mar 19, 2019 6:48:48 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.201.b09-2.el7_6.x86_64/jre
+Mar 19, 2019 6:48:48 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_201-b09
+Mar 19, 2019 6:48:48 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Mar 19, 2019 6:48:48 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/gaggenapallysanthosh/apache-tomcat-7.0.93
+Mar 19, 2019 6:48:48 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/gaggenapallysanthosh/apache-tomcat-7.0.93
+Mar 19, 2019 6:48:48 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/gaggenapallysanthosh/apache-tomcat-7.0.93/conf/logging.properties
+Mar 19, 2019 6:48:48 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Mar 19, 2019 6:48:48 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Mar 19, 2019 6:48:48 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Mar 19, 2019 6:48:48 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/gaggenapallysanthosh/apache-tomcat-7.0.93
+Mar 19, 2019 6:48:48 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/gaggenapallysanthosh/apache-tomcat-7.0.93
+Mar 19, 2019 6:48:48 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/gaggenapallysanthosh/apache-tomcat-7.0.93/temp
+Mar 19, 2019 6:48:48 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Mar 19, 2019 6:48:49 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-7777"]
+Mar 19, 2019 6:48:49 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 19, 2019 6:48:49 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1273 ms
+Mar 19, 2019 6:48:49 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 19, 2019 6:48:49 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.93
+Mar 19, 2019 6:48:49 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gaggenapallysanthosh/apache-tomcat-7.0.93/webapps/ROOT
+Mar 19, 2019 6:48:50 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gaggenapallysanthosh/apache-tomcat-7.0.93/webapps/ROOT has finished in 806 ms
+Mar 19, 2019 6:48:50 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gaggenapallysanthosh/apache-tomcat-7.0.93/webapps/docs
+Mar 19, 2019 6:48:50 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gaggenapallysanthosh/apache-tomcat-7.0.93/webapps/docs has finished in 127 ms
+Mar 19, 2019 6:48:50 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gaggenapallysanthosh/apache-tomcat-7.0.93/webapps/examples
+Mar 19, 2019 6:48:50 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gaggenapallysanthosh/apache-tomcat-7.0.93/webapps/examples has finished in 464 ms
+Mar 19, 2019 6:48:50 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gaggenapallysanthosh/apache-tomcat-7.0.93/webapps/host-manager
+Mar 19, 2019 6:48:50 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gaggenapallysanthosh/apache-tomcat-7.0.93/webapps/host-manager has finished in 146 ms
+Mar 19, 2019 6:48:50 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gaggenapallysanthosh/apache-tomcat-7.0.93/webapps/manager
+Mar 19, 2019 6:48:50 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gaggenapallysanthosh/apache-tomcat-7.0.93/webapps/manager has finished in 77 ms
+Mar 19, 2019 6:48:50 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-7777"]
+Mar 19, 2019 6:48:51 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 19, 2019 6:48:51 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1945 ms
+Mar 19, 2019 7:00:10 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/gaggenapallysanthosh/apache-tomcat-7.0.93/webapps/javaapp.war
+Mar 19, 2019 7:00:11 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/gaggenapallysanthosh/apache-tomcat-7.0.93/webapps/javaapp.war has finished in 132 ms
+Mar 19, 2019 8:43:22 AM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context []
+Mar 19, 2019 8:43:22 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+WARNING: JDBC driver de-registration failed for web application []
+java.lang.NullPointerException
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:2352)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:2286)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:2186)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:684)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5962)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1138)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1598)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1524)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1784)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:366)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1507)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1678)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1688)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1656)
+	at java.lang.Thread.run(Thread.java:748)
+
+Mar 19, 2019 8:43:22 AM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/examples]
+Mar 19, 2019 8:43:22 AM org.apache.catalina.loader.WebappClassLoaderBase openJARs
+WARNING: Failed to open JAR [null]
+java.io.FileNotFoundException: /home/gaggenapallysanthosh/apache-tomcat-7.0.93/webapps/examples/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:221)
+	at org.apache.catalina.loader.WebappClassLoaderBase.openJARs(WebappClassLoaderBase.java:3131)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findResourceInternal(WebappClassLoaderBase.java:3443)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:3163)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:1420)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1924)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1798)
+	at websocket.drawboard.DrawboardEndpoint.<clinit>(DrawboardEndpoint.java:37)
+	at websocket.drawboard.DrawboardContextListener.contextDestroyed(DrawboardContextListener.java:32)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:5228)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5917)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1138)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1598)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1524)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1784)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:366)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1507)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1678)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1688)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1656)
+	at java.lang.Thread.run(Thread.java:748)
+
+Mar 19, 2019 8:43:22 AM org.apache.catalina.loader.WebappClassLoaderBase openJARs
+WARNING: Failed to open JAR [null]
+java.io.FileNotFoundException: /home/gaggenapallysanthosh/apache-tomcat-7.0.93/webapps/examples/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:221)
+	at org.apache.catalina.loader.WebappClassLoaderBase.openJARs(WebappClassLoaderBase.java:3131)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findResourceInternal(WebappClassLoaderBase.java:3443)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findResource(WebappClassLoaderBase.java:1505)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResourceAsStream(WebappClassLoaderBase.java:1749)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:2345)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:2286)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:2186)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:684)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5962)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1138)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1598)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1524)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1784)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:366)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1507)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1678)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1688)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1656)
+	at java.lang.Thread.run(Thread.java:748)
+
+Mar 19, 2019 8:43:22 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+WARNING: JDBC driver de-registration failed for web application [/examples]
+java.lang.NullPointerException
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:2352)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:2286)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:2186)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:684)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5962)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1138)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1598)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1524)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1784)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:366)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1507)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1678)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1688)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1656)
+	at java.lang.Thread.run(Thread.java:748)
+
+Mar 19, 2019 8:43:23 AM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/host-manager]
+Mar 19, 2019 8:43:23 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+WARNING: JDBC driver de-registration failed for web application [/host-manager]
+java.lang.NullPointerException
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:2352)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:2286)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:2186)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:684)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5962)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1138)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1598)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1524)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1784)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:366)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1507)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1678)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1688)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1656)
+	at java.lang.Thread.run(Thread.java:748)
+
+Mar 19, 2019 8:43:23 AM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/manager]
+Mar 19, 2019 8:43:23 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+WARNING: JDBC driver de-registration failed for web application [/manager]
+java.lang.NullPointerException
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:2352)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:2286)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:2186)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:684)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5962)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1138)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1598)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1524)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1784)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:366)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1507)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1678)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1688)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1656)
+	at java.lang.Thread.run(Thread.java:748)
+
+Mar 19, 2019 8:43:24 AM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/javaapp]
+Mar 19, 2019 8:43:24 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+WARNING: JDBC driver de-registration failed for web application [/javaapp]
+java.lang.NullPointerException
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:2352)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:2286)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:2186)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:684)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5962)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1138)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1598)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1524)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1784)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:366)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1507)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1678)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1688)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1656)
+	at java.lang.Thread.run(Thread.java:748)
+
+Mar 19, 2019 8:43:24 AM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/docs]
+Mar 19, 2019 8:43:24 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+WARNING: JDBC driver de-registration failed for web application [/docs]
+java.lang.NullPointerException
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:2352)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:2286)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:2186)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:684)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5962)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1138)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1598)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1524)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1784)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:366)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1507)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1678)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1688)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1656)
+	at java.lang.Thread.run(Thread.java:748)
+
