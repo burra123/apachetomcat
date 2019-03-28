@@ -472,3 +472,17 @@ java.lang.NullPointerException
 	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1656)
 	at java.lang.Thread.run(Thread.java:748)
 
+Mar 19, 2019 10:03:21 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-7777"]
+Mar 19, 2019 10:03:22 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Mar 19, 2019 10:03:22 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Mar 19, 2019 10:03:22 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-7777"]
+Mar 19, 2019 10:03:22 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Mar 19, 2019 10:03:22 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-7777"]
+Mar 19, 2019 10:03:22 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
