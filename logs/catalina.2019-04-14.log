@@ -1,0 +1,78 @@
+Apr 14, 2019 2:07:54 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.93
+Apr 14, 2019 2:07:54 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Feb 16 2019 17:13:17 UTC
+Apr 14, 2019 2:07:54 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.93.0
+Apr 14, 2019 2:07:54 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Apr 14, 2019 2:07:54 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            3.10.0-957.10.1.el7.x86_64
+Apr 14, 2019 2:07:54 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Apr 14, 2019 2:07:54 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.201.b09-2.el7_6.x86_64/jre
+Apr 14, 2019 2:07:54 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_201-b09
+Apr 14, 2019 2:07:54 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Apr 14, 2019 2:07:54 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/gaggenapallysanthosh/apachetomcat
+Apr 14, 2019 2:07:54 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/gaggenapallysanthosh/apachetomcat
+Apr 14, 2019 2:07:54 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/gaggenapallysanthosh/apachetomcat/conf/logging.properties
+Apr 14, 2019 2:07:54 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Apr 14, 2019 2:07:54 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Apr 14, 2019 2:07:54 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Apr 14, 2019 2:07:54 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/gaggenapallysanthosh/apachetomcat
+Apr 14, 2019 2:07:54 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/gaggenapallysanthosh/apachetomcat
+Apr 14, 2019 2:07:54 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/gaggenapallysanthosh/apachetomcat/temp
+Apr 14, 2019 2:07:54 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Apr 14, 2019 2:07:54 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-7777"]
+Apr 14, 2019 2:07:54 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Apr 14, 2019 2:07:54 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1859 ms
+Apr 14, 2019 2:07:54 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Apr 14, 2019 2:07:54 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.93
+Apr 14, 2019 2:07:54 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/gaggenapallysanthosh/apachetomcat/webapps/javaapp.war
+Apr 14, 2019 2:07:55 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/gaggenapallysanthosh/apachetomcat/webapps/javaapp.war has finished in 996 ms
+Apr 14, 2019 2:07:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gaggenapallysanthosh/apachetomcat/webapps/ROOT
+Apr 14, 2019 2:07:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gaggenapallysanthosh/apachetomcat/webapps/ROOT has finished in 125 ms
+Apr 14, 2019 2:07:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gaggenapallysanthosh/apachetomcat/webapps/docs
+Apr 14, 2019 2:07:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gaggenapallysanthosh/apachetomcat/webapps/docs has finished in 111 ms
+Apr 14, 2019 2:07:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gaggenapallysanthosh/apachetomcat/webapps/examples
+Apr 14, 2019 2:07:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gaggenapallysanthosh/apachetomcat/webapps/examples has finished in 1,472 ms
+Apr 14, 2019 2:07:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gaggenapallysanthosh/apachetomcat/webapps/host-manager
+Apr 14, 2019 2:07:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gaggenapallysanthosh/apachetomcat/webapps/host-manager has finished in 115 ms
+Apr 14, 2019 2:07:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gaggenapallysanthosh/apachetomcat/webapps/manager
+Apr 14, 2019 2:07:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gaggenapallysanthosh/apachetomcat/webapps/manager has finished in 91 ms
+Apr 14, 2019 2:07:57 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-7777"]
+Apr 14, 2019 2:07:58 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Apr 14, 2019 2:07:58 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 3241 ms
